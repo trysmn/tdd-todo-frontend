@@ -2,6 +2,32 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+- Install [nvm](https://formulae.brew.sh/formula/nvm) to manage your node versions.
+- Install the latest version of `node` using nvm and use it:
+  ```bash
+  nvm install node
+  nvm use node
+  ```
+- Install dependencies:
+  ```bash
+  npm install
+  ```
+
+## Run the end to end tests
+- Open the cypress window (optional):
+  ```bash
+  npm run cypress:open
+  ```
+- Run all cypress tests:
+  ```bash
+  npm run cypress:run
+  ```
+- Run a specific cypress test file:
+  ```bash
+  npm run cypress:run -- --spec "path/to/file"
+  ```
+
 ## Available Scripts
 
 In the project directory, you can run:
