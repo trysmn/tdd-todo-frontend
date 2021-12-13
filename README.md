@@ -13,6 +13,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ```bash
   npm install
   ```
+- Create a file called `cypress.env.json` in the root directory to manage environment variables and add the following in there:
+  ```json
+  {
+    "TARGET_URL": "http://localhost:3000"
+  }
+  ```
 
 ## Run the end to end tests
 - Open the cypress window (optional):
